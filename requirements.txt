@@ -1,0 +1,8 @@
+pytorch 1.7.1
+numpy
+matplotlib
+PIL
+opencv-python
+
+optional:
+tensorflow (if you want to use tensorboard to see the network structure and the training process)
