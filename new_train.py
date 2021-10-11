@@ -13,8 +13,8 @@ import cfg
 import time
 
 #超参数定义
-D_lr = 0.001
-G_lr = 0.01
+D_lr = 0.01
+G_lr = 0.001
 weightR = 0.995
 weightA = 0.005
 if __name__ == '__main__':
