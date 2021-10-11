@@ -39,6 +39,4 @@ Actually, you must know that when you run this program, you need to input an ima
 ## "dataset" document
 The dataset document contains "train" document and "train_label" document. As I discribe above, these two are same. We introduct "train_label" document to save the raw data, and the images in "train" document will be processed when constructing our dataset and dataloader.
 
-## "model" document
-The .pth file in "model" document is the model we trained. You can use the predict.py file to test it in your own test image.
 
