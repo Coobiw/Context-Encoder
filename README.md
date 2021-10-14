@@ -1,6 +1,14 @@
 # Context-Encoder
 I modify this network to be used for image inpainting.And it can be applied to inpaint most missing regions.
 
+This is a part of our paper which is published on the Applied Optics Journal. （[https://www.osapublishing.org/ao/fulltext.cfm?uri=ao-60-26-8198](https://www.osapublishing.org/ao/fulltext.cfm?uri=ao-60-26-8198))
+
+Recently,this paper has been selected as Spotlight.([https://www.osapublishing.org/spotlight/summary.cfm?id=458598](https://www.osapublishing.org/spotlight/summary.cfm?id=458598))
+
+It is my honor to have the first paper of my BS learning career.
+
+Hope you can star this repository or even cite our paer and sincerely hope that it can help you!
+
 ## Introduction
 This project, which I wrote and improved Context Encoder, selected the currently hot pytorch deep learning framework developed by Facebook, and re-wrote and produced datasets by myself, as explained below.
 
