@@ -69,7 +69,8 @@ if __name__ == '__main__':
             num = img_data.shape[0]
             G_out = netG(img_data).to(device)
             D_out_real = netD(img_label*img_mask)#.to(device)
-            D_out_fake = netD(G_out*img_mask)#.to(device)
+            D_input = G_out.detach()
+            D_out_fake = netD(D_input*img_mask)#.to(device)
             fake_labels = t.zeros((num,1)).to(device)
             real_labels = t.ones((num,1)).to(device)
 
